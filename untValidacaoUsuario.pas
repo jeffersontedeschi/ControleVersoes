@@ -54,7 +54,7 @@ end;
 
 procedure TfrmValidacaoUsuario.LoginClick(Sender: TObject);
 begin
-  if (edtUsuario.text = 'SUPER') and (edtSenha.text = '.Pr0@ns1,') then
+  if (edtUsuario.text = 'ADMIN') and (edtSenha.text = 'ADMIN') then
     begin
      frmInicioControleDependencias.validaUsuario := true;
      close;
